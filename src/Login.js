@@ -1,7 +1,6 @@
 import React from 'react';
 import fire from './config/fire';
 
-
 class Login extends React.Component {
 
   signUp() {
@@ -33,15 +32,13 @@ class Login extends React.Component {
       <div style={{ textAlign: 'center' }}>
         <div>
           <div>Email</div>
-          <input id="email" placeholder="Enter Email.." type="text" required/>
+          <input id="email" placeholder="Enter Email.." type="text"/>
         </div>
         <div>
           <div>Password</div>
-          <input id="password" placeholder="Enter Password.." type="text" required/>
+          <input id="password" placeholder="Enter Password.." type="text"/>
         </div>
         <button style={{margin: '10px'}} onClick={this.login}>Login</button>
-        <br/>
-        
         <button style={{margin: '10px'}} onClick={this.signUp}>Sign Up</button>
       </div>
     )
