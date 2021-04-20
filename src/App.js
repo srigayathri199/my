@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import fire from './config/fire'
 import Login from './Login.js';
 import Home from './Home.js';
-
+import 'bulma/css/bulma.min.css'
 class App extends Component {
 
   constructor(props) {
